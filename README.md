@@ -10,4 +10,4 @@ Installation :  `npm install` after download  my project.
 To Start Server: `npm start` 
 
 ## Reflection
-duration: 23.05.05 ~ now
+duration: 23.05.05 ~ 23.05.10 (local system)

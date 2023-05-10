@@ -25,6 +25,10 @@ const HeaderCartButton = props => {
     const timer = setTimeout(() => {
       setBtnIsHighlighted(false);
     }, 300); // 애니메이션 진행후 클래스 삭제
+
+    return () => {
+      clearTimeout(timer);
+    };
   },[items]);
 
   return (
